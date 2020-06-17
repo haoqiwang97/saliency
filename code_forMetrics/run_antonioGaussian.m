@@ -12,3 +12,5 @@ n=max([sn sm]);
 fc = n*sqrt(log(2)/(2*(pi^2)*(sigma^2)));
 
 [BF, gf]=antonioGaussian(img, fc);
+
+end

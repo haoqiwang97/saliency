@@ -25,3 +25,5 @@ mapb = mapb./sum(mapb);
 locs = logical(fixationMap(:));
 %%
 score = mean(log2(eps+map1(locs))-log2(eps+mapb(locs))); 
+
+end

@@ -98,3 +98,5 @@ if toPlot
     plot(x, y, '.r');
     subplot(122); plot(fp, tp, '.b-');   title(['Area under ROC curve: ', num2str(score)])
 end
+
+end

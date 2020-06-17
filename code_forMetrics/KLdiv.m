@@ -24,4 +24,5 @@ end
 % compute KL-divergence
 score = sum(sum(map2 .* log(eps + map2./(map1+eps))));
 
+end
 

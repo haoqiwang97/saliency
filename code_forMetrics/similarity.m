@@ -47,3 +47,5 @@ if toPlot
     title(['Similar parts = ', num2str(s)]);
     pause;
 end
+
+end

@@ -14,3 +14,5 @@ map = (map - mean(map(:)))/std(map(:));
 
 % mean value at fixation locations
 score = mean(map(logical(fixationMap))); 
+
+end
